@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главна</title>
+</head>
+<body>
+    <h1>Добро пожаловать в Голосовой чат c AI</h1>
+    {% if current_user.is_authenticated %}
+        <a href="{{ url_for('logout') }}">Logout</a>
+        {% if current_user.is_admin %}
+            <a href="/admin/">Admin</a>
+        {% endif %}
+        <a href="{{ url_for('voice_chat') }}">Voice Chat</a>
+    {% else %}
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('register') }}">Register</a>
+    {% endif %}
+</body>
+</html>
+
