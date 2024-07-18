@@ -1,4 +1,4 @@
 
 
-Uploading Запись_2024_07_08_22_33_43_214.mp4…
+https://github.com/user-attachments/assets/1c7b5c28-1ab3-4ede-9025-705c65836ef1
 
